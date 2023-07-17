@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background: #2a364f;
+                display: grid;
+                place-items: center;
+            }
+
+            button {
+                display: inline-block;
+                background: #f8b627;
+                color: #f4f4f4;
+                font-size: 16px;
+                font-weight: normal;
+                width: 132px;
+                text-align: center;
+                border-radius: 3px;
+                transition: 400ms;
+                text-decoration: none;
+                padding: 10px 22px;
+                z-index: 100000;
+                outline: none;
+                border: none;
+
+            }
+            p{
+                text-align: center;
+                color: rgba(255, 255,255, 1);
+            }
+            h1{
+                color: aquamarine;
+            }            
+        </style>
+    </head>
+    <body>
+        <p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">click the text Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque quaerat aliquid adipisci? Laboriosam, non eum!</p>
+        <script>
+            function mouseDown(){
+                document.getElementById("myP").style.color = "#F8B627";
+            }
+
+            function mouseUp(){
+                document.getElementById("myP").style.color = "red";
+            }
+        </script>
+    </body>
+</html>

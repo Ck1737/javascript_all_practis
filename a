@@ -1,0 +1,37 @@
+"user strict" - define datatype var let const
+
+
+<!-- * javascript exersice * 
+
+- array & flatArray
+- function & arrow Function
+- forEach Loop
+- pop & push & unshift & Shift & splice method
+- map & filter & Reduce method
+- replace & charAt
+- uppercase & lowercase & concat & trim & split -->
+
+
+<!-- ----------------06-07-2023----------------
+* javascript exersice *
+- date & Time object
+- Math method -> round & pow & sqrt & abs & ceil & floor & min & max & random & trunc 
+- onclick event & key Press/down/up & mouse down/up/enter/leave
+- setTimeOut & clearTimeOut & setInterval & clearInterval
+- object destrucuring & this object & spread operator  -->
+
+
+----------------------7-7-2023---------------------
+# javascript exersice 
+- bigInt
+- callback function
+- syncronous & asynchronous
+- callback hell 
+- api & promise (then & catch) 
+- Async & Await(try & catch)
+
+ # project
+- turn light on off
+- tharmometer temreture
+- Celsius to Fahrenheit conversion
+- increment Counter
